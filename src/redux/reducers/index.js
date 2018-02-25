@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import testReducer from './testReducer';
+import ToDoList from '../reducers/ToDoList';
 
 export default combineReducers({
-  testReducer,
+  ToDoList,
 });
 
